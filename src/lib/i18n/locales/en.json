@@ -1,0 +1,77 @@
+{
+  "common": {
+    "save": "Save",
+    "saveAndNew": "Save & New",
+    "saveAndStock": "Save & Add Stock",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "required": "Required fields",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "products": {
+    "title": "Products",
+    "add": "Add Product",
+    "edit": "Edit Product",
+    "list": "Product List",
+    "details": "Product Details",
+    "form": {
+      "tabs": {
+        "basic": "Basic Information",
+        "media": "Media",
+        "pricing": "Pricing",
+        "seo": "SEO"
+      },
+      "fields": {
+        "name": "Product Name",
+        "sku": "SKU",
+        "barcode": "Barcode",
+        "description": "Description",
+        "category": "Category",
+        "brand": "Brand",
+        "unit": "Unit",
+        "location": "Location",
+        "price": {
+          "purchase": "Purchase Price",
+          "sale": "Sale Price",
+          "margin": "Profit Margin"
+        },
+        "stock": {
+          "quantity": "Stock Quantity",
+          "min": "Minimum Stock Level",
+          "max": "Maximum Stock Level"
+        },
+        "status": "Status",
+        "tax": "Tax Rate",
+        "weight": "Weight",
+        "seo": {
+          "title": "SEO Title",
+          "description": "SEO Description",
+          "keywords": "Keywords",
+          "url": "URL Slug"
+        }
+      },
+      "validation": {
+        "required": "This field is required",
+        "min": "Must be at least {{min}}",
+        "max": "Must be at most {{max}}",
+        "positive": "Must be a positive number",
+        "integer": "Must be a whole number"
+      }
+    },
+    "messages": {
+      "addSuccess": "Product added successfully",
+      "updateSuccess": "Product updated successfully",
+      "deleteSuccess": "Product deleted successfully",
+      "error": "An error occurred",
+      "confirmDelete": "Are you sure you want to delete this product?"
+    }
+  }
+}

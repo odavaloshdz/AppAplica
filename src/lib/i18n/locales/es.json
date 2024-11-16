@@ -1,0 +1,77 @@
+{
+  "common": {
+    "save": "Guardar",
+    "saveAndNew": "Guardar y Nuevo",
+    "saveAndStock": "Guardar y Agregar Stock",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "required": "Campos requeridos",
+    "loading": "Cargando...",
+    "success": "Éxito",
+    "error": "Error",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar"
+  },
+  "products": {
+    "title": "Productos",
+    "add": "Agregar Producto",
+    "edit": "Editar Producto",
+    "list": "Lista de Productos",
+    "details": "Detalles del Producto",
+    "form": {
+      "tabs": {
+        "basic": "Información Básica",
+        "media": "Multimedia",
+        "pricing": "Precios",
+        "seo": "SEO"
+      },
+      "fields": {
+        "name": "Nombre del Producto",
+        "sku": "SKU",
+        "barcode": "Código de Barras",
+        "description": "Descripción",
+        "category": "Categoría",
+        "brand": "Marca",
+        "unit": "Unidad",
+        "location": "Ubicación",
+        "price": {
+          "purchase": "Precio de Compra",
+          "sale": "Precio de Venta",
+          "margin": "Margen de Ganancia"
+        },
+        "stock": {
+          "quantity": "Cantidad en Stock",
+          "min": "Nivel Mínimo de Stock",
+          "max": "Nivel Máximo de Stock"
+        },
+        "status": "Estado",
+        "tax": "Tasa de Impuesto",
+        "weight": "Peso",
+        "seo": {
+          "title": "Título SEO",
+          "description": "Descripción SEO",
+          "keywords": "Palabras Clave",
+          "url": "URL Amigable"
+        }
+      },
+      "validation": {
+        "required": "Este campo es requerido",
+        "min": "Debe ser al menos {{min}}",
+        "max": "Debe ser como máximo {{max}}",
+        "positive": "Debe ser un número positivo",
+        "integer": "Debe ser un número entero"
+      }
+    },
+    "messages": {
+      "addSuccess": "Producto agregado exitosamente",
+      "updateSuccess": "Producto actualizado exitosamente",
+      "deleteSuccess": "Producto eliminado exitosamente",
+      "error": "Ocurrió un error",
+      "confirmDelete": "¿Está seguro que desea eliminar este producto?"
+    }
+  }
+}
